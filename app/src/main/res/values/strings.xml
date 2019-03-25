@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TP 1 - Novo</string>
     <string name="instagram">Instagram</string>
-    <string name="facebok">Facebok</string>
+    <string name="facebook">Facebook</string>
     <string name="nome">Nome</string>
     <string name="telefone">Telefone</string>
     <string name="e_mail">E-mail</string>
@@ -12,4 +12,9 @@
     <string name="linkedin">Linkedin</string>
     <string name="integracao">Integracao</string>
     <string name="voltar">Voltar</string>
+    <string name="facebook_app_id">2006691912969809</string>
+    <string name="fb_login_protocol_scheme">fb2006691912969809</string>
+    <string name="profile_image">Profile image</string>
+    <string name="profile_nome">Nome</string>
+    <string name="profile_email">Email</string>
 </resources>
