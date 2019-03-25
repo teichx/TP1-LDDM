@@ -8,25 +8,22 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnIntegracao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
 
-        btnIntegracao = findViewById( R.id.btnIntegracao );
-        btnIntegracao.setOnClickListener( new View.OnClickListener() {
+        Button btnIntegracao = (Button) findViewById( R.id.btnIntegracao );
+        btnIntegracao.setOnClickListener( new View.OnClickListener(){
             @Override
-            public void onClick(View v) {
-                openActivityIntegracao();
+            public void onClick(View view){
+                Intent intent = new Intent( MainActivity.this, Integracao.class );
+                startActivity( intent );
             }
-        } );
+        });
 
     }
 
-    public void openActivityIntegracao(){
-        Intent intent = new Intent( this, Integracao.class );
-        startActivity( intent );
-    }
+
 }
