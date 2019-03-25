@@ -15,6 +15,4 @@
     <string name="facebook_app_id">2006691912969809</string>
     <string name="fb_login_protocol_scheme">fb2006691912969809</string>
     <string name="profile_image">Profile image</string>
-    <string name="profile_nome">Nome</string>
-    <string name="profile_email">Email</string>
 </resources>

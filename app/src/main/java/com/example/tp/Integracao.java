@@ -106,7 +106,7 @@ public class Integracao extends AppCompatActivity{
                     String last_name = object.getString( "last_name" );
                     String email = object.getString( "email" );
                     String id = object.getString( "id" );
-                    String imageUrl = "https://graph.facebook.com/" + id + "picture?type=normal";
+                    String imageUrl = "https://graph.facebook.com/" + id + "/picture?type=normal";
 
                     txtNome.setText( first_name + " " + last_name );
                     txtEmail.setText( email );

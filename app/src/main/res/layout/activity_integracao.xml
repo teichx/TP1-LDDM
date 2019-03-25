@@ -91,30 +91,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnLinkedin" />
 
-        <TextView
-            android:id="@+id/nomeFacebook"
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_pic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
-            android:text="@string/facebook"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnMain" />
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_pic"
-            android:layout_width="175dp"
-            android:layout_height="175dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:adjustViewBounds="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nomeFacebook" />
+            app:layout_constraintTop_toBottomOf="@+id/btnMain" />
 
         <TextView
             android:id="@+id/profile_name"
@@ -125,7 +114,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:text="@string/nome"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profile_pic" />
@@ -139,7 +127,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/profile_email"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profile_name" />
