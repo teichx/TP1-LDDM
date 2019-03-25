@@ -30,7 +30,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Integracao extends AppCompatActivity{
 
-    private LoginButton loginButton;
+    private LoginButton login_button;
     private CircleImageView circleImageView;
     private TextView txtNome, txtEmail;
 
@@ -41,15 +41,15 @@ public class Integracao extends AppCompatActivity{
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_integracao );
 
-        loginButton = findViewById( R.id.login_button );
+        login_button = findViewById( R.id.login_button );
         txtNome = findViewById( R.id.profile_name );
         txtEmail = findViewById( R.id.profile_email );
         circleImageView = findViewById( R.id.profile_pic );
 
         callbackManager = CallbackManager.Factory.create();
-        loginButton.setReadPermissions( Arrays.asList("email", "public_profile") );
+        login_button.setReadPermissions( Arrays.asList("email", "public_profile") );
 
-        loginButton.registerCallback( callbackManager, new FacebookCallback<LoginResult>() {
+        login_button.registerCallback( callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
 
