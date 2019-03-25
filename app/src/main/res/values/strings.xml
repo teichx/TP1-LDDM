@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TP 1 - Novo</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebok">Facebok</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="salvar">Salvar</string>
+    <string name="apelido">Apelido</string>
+    <string name="empresa">Empresa</string>
+    <string name="avatar">avatar</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="integracao">Integracao</string>
+    <string name="voltar">Voltar</string>
+</resources>
