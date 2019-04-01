@@ -17,4 +17,5 @@
     <string name="profile_image">Profile image</string>
     <string name="user_name">User Name</string>
     <string name="profile_email">User E-mail</string>
+    <string name="not_string"></string>
 </resources>
